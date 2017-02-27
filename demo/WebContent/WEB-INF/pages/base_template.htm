@@ -1,0 +1,23 @@
+<#macro extends title switch=1> 
+<#global contextPath = request.contextPath />
+<!DOCTYPE html>
+<html>
+<head>
+<title>${title} </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="${contextPath!}/public/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="${contextPath}/public/css/bootstrap-theme.min.css">
+<script type="text/javascript" src='${contextPath}/public/js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript" src='${contextPath}/public/js/bootstrap.min.js'></script>
+<link rel="stylesheet" type="text/css" href="${contextPath}/public/css/common.css">
+<script type="text/javascript" src='${contextPath}/public/js/common.js'></script>
+</head>
+<body>
+	
+	<#if switch == 1>
+		<#include "side_bar.htm"/>
+	</#if>
+	<#nested/>
+</body>
+</html>
+</#macro>

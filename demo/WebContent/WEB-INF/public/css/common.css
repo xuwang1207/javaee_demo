@@ -1,0 +1,213 @@
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+a{
+	cursor: pointer;
+}
+a:hover{
+	/* text-decoration:none; */
+}
+td{
+	vertical-align:middle !important;
+}
+html,body{
+	font-size:16px;
+}
+
+/*Loading*/
+.yl-loading {
+    display: none;
+}
+.yl-loading-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+    z-index: 1999;
+}
+.yl-loading-img {
+    margin-top: -25px;
+    margin-left: -25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    z-index: 2000;
+    animation: yl-loading 0.8s;
+    -moz-animation: yl-loading 0.8s;
+    -webkit-animation: yl-loading 0.8s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+/*Loading End*/
+
+/*后台模板内容部分*/
+.main_container{
+	bottom: 0;
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 240px;
+    right: 0;
+    box-shadow: 5px 0px 10px #aaaaaa inset;
+    padding: 0;
+    border-left:2px #a5a5a5 solid;
+    background: #FFF;
+    overflow: scroll;
+}
+.main_container .main{
+	padding: 0 35px;
+}
+.breadcrumb{
+	background-color: #eee;
+    border-radius: 0;
+    background-color: #eee;
+    border-radius: 0;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size:16px;
+}
+/* ============= */
+/* ==Login Jsp CSS== */
+/* ============= */
+.login_container form {
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 20px 50px;
+	width: 400px;
+	margin: 100px auto;
+}
+.login_container .title_field {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.login_container .title{
+	margin-bottom: 20px;
+	color: #2a71b9;
+	font-size: 25px;
+	line-height: 30px;
+}
+.login_container .field {
+	padding: 10px;
+	text-align: center;
+}
+.login_container .field label{
+	display: inline-block;
+    margin: 0 10px 0 0;
+    font-size: 15px;
+    line-height: 35px;
+    width:40px;
+}
+.login_container .field input{
+	margin: 0;
+	width:218px;
+	padding: 0;
+	height: 35px;
+	text-indent: 10px;
+}
+.login_container .field button{
+	width: 270px;
+    height: 35px;
+    background: #2a71b9;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.login_container .error_tips{
+	color: #E60000;
+    line-height: 30px;
+    font-size: 15px;
+    padding-left: 120px;
+}
+
+
+
+/* admin/dip_hours/index.jsp*/
+.main_container .main table tr,
+.main_container .main table th{
+	text-align: center;
+}
+.dip_hours_cities_container .main .cities{
+	padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px #d8d8d8 solid;
+}
+.dip_hours_cities_container .main .cities legend {
+    display: block;
+    width: auto;
+    padding: 0;
+    margin: 5px;
+    padding: 0 10px;
+    font-size: 18px;
+    border: none;
+}
+.dip_hours_cities_container .main .cities button{
+	border: none;
+    background: #2a71b9;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.row-title{
+	font-size:14px;
+	color:#fff;
+	background:#0085d0;
+	padding:7px;
+	border:1px solid #eee;
+}
+.main_container .title_field .field{
+	/* text-align:center; */
+	margin-bottom:10px;
+}
+.main_container .title_field .field label{
+	padding-right:14px;
+	min-width:90px; 
+	padding-bottom:8px;
+}
+.main_container .title_field .field input{
+	padding-left:5px;
+	height:40px;
+	width:200px;
+	outline:none;
+}
+.qx-field label{
+	float:left;
+}
+.main_container .title_field  .radio-field input{
+	width:auto;
+	height:auto;
+}
+.main_container .title_field .field span{
+	color:red;
+	font-size:14px;
+}
+.main_container .title_field .field button{
+	color:#fff;
+	bacKground:#0085d0;
+	/* margin-left:80px; */
+	margin-top:10px;
+	padding:4px 15px;
+}
+.main_container .error_tips{
+	color:red;
+	background:#eee;
+	margin:20px;
+	padding:11px 11px 11px;
+}

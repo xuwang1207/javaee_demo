@@ -1,0 +1,234 @@
+/*
+ 协鑫集成 CSS
+ Steven
+*/
+html{
+	height: 100% !important;	
+}
+body{
+    max-width: 500px;
+    margin: 0 auto;
+    font: 16px "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+ 	min-height: 100%;
+}
+.page, .page-group{
+	background: #fff;
+}
+html,body,.page, .page-group{
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background: #fff;
+}
+.modal{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 80%;
+	margin: 50% 10% !important;
+}
+.toast{
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+    font-size: 0.8em;
+}
+.page-group.page-current, .page.page-current{
+	overflow: auto;
+}
+.content-padded{
+	margin: 1em 0;
+}
+.top{
+	text-align: center;
+	padding: 1em 0;
+}
+.top img{
+	width: auto;
+    height: 4em;
+    display: inline-block;
+}
+.top .information{
+	display: inline-block;
+    text-align: left;
+    height: 4em;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    border-left: 1px #d9d9d9 solid;
+    vertical-align: text-bottom;
+}
+.top .information p{
+	margin: 0;
+}
+.top .information p.name{
+	font-size: 1.5em;
+	color: #2a71b9;
+}
+.top .information p.explain{
+	font-size: 0.8em;
+	color: #373536;
+}
+
+/*工商业屋顶参数输入页面*/
+.picker-items-col.picker-items-col-center.col-info{
+	display: none !important;
+}
+
+.part{
+	margin: 0;
+}
+.part .part_name{
+	background: #2a71b9;
+	color: #fff;
+	line-height: 1.5em;
+    font-size: 1em;
+    padding: 5px 0;
+    text-indent: 0.5em;
+}
+.part ul li{
+	border-bottom: 1px #d9d9d9 solid;
+	background: #FFF;
+	padding: 5px 0;
+}
+.list-block .item-inner::after{
+	height: 0;
+}
+.part ul li .error{
+    line-height: 25px;
+    border: none;
+    font-size: .7em;
+    color: red;
+    padding-left: 1rem;
+}
+.part .item-title.label{
+	width: auto !important;
+}
+.part .item-input{
+	width: auto !important;
+	text-align: right;
+}
+
+.part input{
+	width: auto !important;
+	display: inline-block !important;
+	text-align: right;
+    padding-right: 5px !important;
+    max-width: 90px;
+    color: #c7c7cd;
+}
+.list-block input[type=text]{
+	font-size: 1em !important;
+	vertical-align: baseline;
+}
+.part input.max-width-80{
+	 max-width: 80px !important;
+}
+.type{
+	margin: 1em;
+}
+.type .buttons-row .button{
+	line-height: 2.5em;
+    height: 2.5em;
+    border-color: #2a71b9;
+    color: #2a71b9;
+}
+.type .buttons-row .button.active{
+	background: #2a71b9;
+	color: #fff;
+}
+.submit{
+	font-size: .85rem;
+    height: 2rem;
+    line-height: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    background: #2a71b9;
+    color: #fff;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+/* 工商业屋顶的结果页面*/
+.gsywd_result_data p{
+	margin: 0;
+	text-align: center;
+}
+.gsywd_result_data p.item{
+	background: #2a71b9;
+    color: #fff;
+    font-size: .8em;
+    line-height: 2em;
+    font-family: serif;
+}
+.gsywd_result_data p.count{
+    font-size: 1.3em;
+    line-height: 2em;
+    font-family: sans-serif;
+}
+.error-result{
+	margin: 100px auto;
+	text-align: center;
+}
+/* 鑫阳光屋顶参数输入页面*/
+.more-params{
+	color: #373536;
+	background: #f6f6f6;
+    line-height: 1.5em;
+    font-size: 1em;
+    padding: 5px 5px 5px 0;
+    text-indent: 0.5em;
+}
+.more-params button {
+	float: right;
+	border: none;
+	padding: 0;
+	outline: none;
+	cursor: pointer;
+	background: #f6f6f6;
+	color: #c7c7cd;
+}
+.more-params button span{
+	padding-left: 3px;
+}
+.more-params-area{
+	display: none;
+}
+
+
+/*鑫阳光结果页面*/
+table{
+	width: 90%;
+    margin: 0 auto 1em auto;
+    text-align: left;
+    font-size: .7em;
+    color: #373536;
+}
+table thead {
+	background: #2a71b9;
+	color: #fff;
+	text-indent: 0.5em;
+    line-height: 25px;
+}
+table thead tr{
+	border-right: 1px #2a71b9 solid;
+}
+table tbody td{
+	border: 1px #d9d9d9 solid;
+	padding: 0 .5em;
+	line-height: 35px;
+}
+table tbody td>span {
+	float: right;
+}
+table tbody td span.green{
+	color: #6eb92c;
+	padding-right: 5px;
+}
+table tbody td span.blue{
+	color: #2a71b9;
+	padding-right: 5px;
+}
